@@ -1,8 +1,8 @@
 {
-  "name": "React PWA",
-  "short_name": "reactpwa",
-  "description": "Starter kit for modern web applications",
-  "theme_color": "#ffffff",
+  "name": "SG Cloud",
+  "short_name": "SGCloud",
+  "description": "Software Generation - Business portfolio by Carlos Gumucio and Benjamin Sepulveda",
+  "theme_color": "#0A2540",
   "icons": [
     {
       "src": "pwa-192x192.png",
