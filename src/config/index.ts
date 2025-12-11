@@ -1,8 +1,8 @@
-const title = 'React PWA';
+const title = 'SG Cloud';
 
-const email = 'auther-email@gmail.com';
+const email = 'contact@sgcloud.com';
 
-const repository = 'https://github.com/suren-atoyan/react-pwa';
+const repository = 'https://github.com/carlosgl93/SG-Cloud';
 
 const dateFormat = 'MMMM DD, YYYY';
 
@@ -14,7 +14,7 @@ const loader = {
 
 const defaultMetaTags = {
   image: '/cover.png',
-  description: 'Starter kit for modern web applications',
+  description: 'Software Generation - Business portfolio by Carlos Gumucio and Benjamin Sepulveda',
 };
 
 export { loader, dateFormat, repository, email, title, defaultMetaTags };
