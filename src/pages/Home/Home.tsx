@@ -10,7 +10,7 @@ import tsLogo from './logos/ts.svg';
 import viteLogo from './logos/vite.svg';
 import { Image } from './styled';
 
-function Welcome() {
+function Home() {
   const isPortrait = useOrientation();
 
   const width = isPortrait ? '40%' : '30%';
@@ -18,7 +18,7 @@ function Welcome() {
 
   return (
     <>
-      <meta name="title" content="Welcome" />
+      <meta name="title" content="Home" />
       <FullSizeCentered flexDirection={isPortrait ? 'column' : 'row'}>
         <Image alt="react-router" src={rrLogo} />
         <Image alt="vite" src={viteLogo} />
@@ -32,4 +32,4 @@ function Welcome() {
   );
 }
 
-export default Welcome;
+export default Home;

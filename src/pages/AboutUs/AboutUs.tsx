@@ -2,15 +2,15 @@ import { Typography } from '@mui/material';
 
 import { FullSizeCentered } from '@/components/styled';
 
-function Page3() {
+function AboutUs() {
   return (
     <>
-      <meta name="title" content="Page 3" />
+      <meta name="title" content="About Us" />
       <FullSizeCentered>
-        <Typography variant="h3">Page 3</Typography>
+        <Typography variant="h3">About Us</Typography>
       </FullSizeCentered>
     </>
   );
 }
 
-export default Page3;
+export default AboutUs;
